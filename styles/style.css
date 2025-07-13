@@ -29,6 +29,19 @@
   max-width: 1140px;
   margin: 0 auto;
 }
+.section-btn {
+  padding: 14px 20px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  background: var(
+    --Linear,
+    linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%)
+  );
+  border: none;
+  cursor: pointer;
+}
 
 /* header */
 
@@ -93,4 +106,38 @@
   text-decoration: none;
   color: #707070;
   font-size: 16px;
+}
+
+/* banner section */
+.banner-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #feeae9;
+  padding: 30px 30px;
+  border-radius: 10px;
+}
+.banner-title {
+  color: #1f1f1f;
+  font-size: 48px;
+  font-weight: 700;
+}
+.banner-description {
+  color: #4e4e4e;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 10px 0;
+}
+.banner-subtitle {
+  color: #ff136f;
+  font-size: 36px;
+  font-weight: 400;
+}
+.banner-btn {
+  margin-top: 10px;
+}
+.banner-img {
+  width: 402px;
+  height: 378px;
 }
