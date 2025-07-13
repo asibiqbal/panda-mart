@@ -5,10 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panda Mart</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/e245dc21e1.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
-
+<body class="poppins">
+    <!--header -->
+    <header class="container">
+        <!-- nav -->
+        <nav class="nav-container">
+            <div class="logo"><img src="/images/logo.png" alt="logo"></div>
+            <div class="search-container">
+                <label for="search-input" class="sr-only">Search</label>
+                <input type="text" id="search-input" class="search-input" aria-label="Search input field"
+                    placeholder="Search">
+                <!-- <i class="search-icon fas fa-search"></i> -->
+                <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" width="22" height="23" viewBox="0 0 22 23"
+                    fill="none">
+                    <path
+                        d="M21.6 19.9L17.4 15.8C18.7 14.1 19.5 12 19.5 9.8C19.5 4.4 15.1 0 9.7 0C4.4 0 0 4.4 0 9.8C0 15.2 4.4 19.6 9.8 19.6C12 19.6 14.1 18.9 15.8 17.5L19.9 21.7C20.4 22.2 21.2 22.2 21.6 21.7C22 21.2 22.1 20.4 21.6 19.9ZM2.4 9.8C2.4 5.8 5.7 2.5 9.7 2.5C13.7 2.5 17 5.8 17 9.8C17 13.8 13.7 17.1 9.7 17.1C5.7 17.1 2.4 13.8 2.4 9.8Z"
+                        fill="#BABABA" />
+                </svg>
+            </div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Product</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
 </body>
 
 </html>
